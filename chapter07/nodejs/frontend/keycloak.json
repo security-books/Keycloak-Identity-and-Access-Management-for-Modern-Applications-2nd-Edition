@@ -1,0 +1,8 @@
+{
+  "realm": "myrealm",
+  "auth-server-url": "${env.KC_URL:http://localhost:8080}",
+  "resource": "mywebapp",
+  "credentials" : {
+    "secret" : "d95ztheAtEjylSJT9S1TsYF1D8STtZaB"
+  }
+}

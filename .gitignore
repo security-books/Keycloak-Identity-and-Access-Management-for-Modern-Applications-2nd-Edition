@@ -1,0 +1,10 @@
+.idea
+*.iml
+gradle
+
+package-lock.json
+node_modules
+node
+target
+
+__pycache__
