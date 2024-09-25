@@ -12,7 +12,10 @@ start container
 ```bash
 docker start Keycloak--Identity-and-Access-Management-for-Modern-Applications-2nd-Edition
 ```
-
+stop container
+```bash
+docker stop Keycloak--Identity-and-Access-Management-for-Modern-Applications-2nd-Edition
+```
 http://localhost:8080
 
 
@@ -304,8 +307,10 @@ login with alice/alice
 
 # Chapter13
 
+```bash
 cd chapter13/mytheme
 docker cp target/mytheme.jar Keycloak--Identity-and-Access-Management-for-Modern-Applications-2nd-Edition:/opt/keycloak/providers
 docker restart Keycloak--Identity-and-Access-Management-for-Modern-Applications-2nd-Edition
 
+```
 http://localhost:8080/realms/myrealm/account
